@@ -1,0 +1,467 @@
+{{Mbox|text=The content of this page is maintained by '''members of the Xenharmonic Alliance Discord'''. If you have any questions, spot any errors, or have any suggestions, be sure to ask there!}}
+
+'''TAMNAMS''' (from '''''T'''emperament-'''A'''gnostic '''M'''os '''NAM'''ing '''S'''ystem'', read as /ˈteɪmneɪmz/ or /ˈtæmnæmz/), devised by the XA Discord in 2021, is a system of temperament-agnostic names for scales—primarily [[Octave equivalence|octave-equivalent]] [[moment of symmetry]] scales—as well as their intervals, their associated generator ranges, and the ratios describing the proportions of large and small steps.
+
+The goal of TAMNAMS is to allow musicians and theorists to discuss moment-of-symmetry scales, or mosses, independent of the language of [[regular temperament theory]]. For example, the names ''flattone[7]'', ''meantone[7]'', ''pythagorean[7]'', and ''superpyth[7]'' all describe the same step pattern of 5L&nbsp;2s, with different proportions of large and small steps. Under TAMNAMS parlance, these names can be described broadly as ''soft 5L&nbsp;2s'' (for flattone and meantone) and ''hard 5L&nbsp;2s'' (for pythagorean and superpyth). For discussions of the step pattern itself, the name ''5L&nbsp;2s'' or, in this example, ''diatonic'', is used.
+
+== Credits ==
+This page and its associated pages were mainly written by [[User:Godtone]], [[User:SupahstarSaga]], [[User:Inthar]], and [[User:Ganaram inukshuk]].
+
+== Step ratio spectrum ==
+{{Main| Step ratio }}TAMNAMS names nine specific simple [[Blackwood's R|L:s ratios]] tabulated below, which correspond to the simplest edos that have the mos scale. The two extremes, equalized and collapsed, are degenerate cases and define the boundaries for valid tuning ranges. An equalized mos has large and small steps be the same size ({{nowrap|L {{=}} s}}), so the mos pattern is no longer apparent. A collapsed mos has small steps shrunken down to zero ({{nowrap|s {{=}} 0}}), merging adjacent tones s apart into a single tone. In both cases, the mos structure is no longer valid.
+
+In between the nine specific ratios there are eight named intermediate ranges of step ratios. These names are useful for classifying mos tunings which don't match any of the nine simple step ratios. There are also two additional terms for broader ranges: the term ''hyposoft'' describes step ratios that are ''soft-of-basic'' but not as soft as 3:2; similarly, the term ''hypohard'' describes step ratios that are ''hard-of-basic'' but not as hard as 3:1.
+
+By default, all ranges include their endpoints. For example, a hard tuning is considered a quasihard tuning. To exclude endpoints, the modifier ''strict'' can be used, for example ''strict hyposoft''.
+
+In some cases it can be clearer to name step ratio ranges by their ranges in hardness (for example, 1-1.33 for ultrasoft) or by their boundary step ratios (for example, equalized-to-supersoft for ultrasoft) than by the step ratio ranges tabulated here.
+
+{| class="wikitable center-all"
+|+ style="font-size: 105%;" | Spectrum of step ratio ranges and specific step ratios
+|-
+! colspan="3" | Step ratio ranges
+! Specific<br />step ratios
+! Hardness
+! Notes
+|-
+| 
+| 
+| 
+| '''1:1<br />(equalized)'''
+| 1
+| Trivial/pathological
+|-
+| rowspan="7" | 1:1 to 2:1<br />(soft-of-basic)
+| colspan="2" | 1:1 to 4:3<br />(ultrasoft)
+| 
+| 
+| Step ratios especially close to 1:1 may be called pseudoequalized
+|-
+| 
+| 
+| '''4:3<br />(supersoft)'''
+| 1.33
+| 
+|-
+| colspan="2" | 4:3 to 3:2<br />(parasoft)
+| 
+| 
+| 
+|-
+| 
+| 
+| '''3:2<br />(soft)'''
+| 1.5
+| Also called monosoft
+|-
+| rowspan="3" | 3:2 to 2:1<br />(hyposoft)
+| 3:2 to 5:3<br />(quasisoft)
+| 
+| 
+| 
+|-
+| 
+| '''5:3<br />(semisoft)'''
+| 1.67
+| 
+|-
+| 5:3 to 2:1<br />(minisoft)
+| 
+| 
+| 
+|-
+| 
+| 
+| 
+| '''2:1<br />(basic)'''
+| 2
+| 
+|-
+| rowspan="7" | 2:1 to 1:0<br />(hard-of-basic)
+| rowspan="3" | 2:1 to 3:1<br />(hypohard)
+| 2:1 to 5:2<br />(minihard)
+| 
+| 
+| 
+|-
+| 
+| '''5:2<br />(semihard)'''
+| 2.5
+| 
+|-
+| 5:2 to 3:1<br />(quasihard)
+| 
+| 
+| 
+|-
+| 
+| 
+| '''3:1<br />(hard)'''
+| 3
+| Also called monohard
+|-
+| colspan="2" | 3:1 to 4:1<br />(parahard)
+| 
+| 
+| 
+|-
+| 
+| 
+| '''4:1<br />(superhard)'''
+| 4
+| 
+|-
+| colspan="2" | 4:1 to 1:0<br />(ultrahard)
+| 
+| 
+| Step ratios especially close to 1:0 may be called pseudocollapsed
+|-
+| 
+| 
+| 
+| '''1:0<br />(collapsed)'''
+| infinity
+| Trivial/pathological
+|}
+
+=== Extended spectrum ===
+{{Main|TAMNAMS/Appendix#Extended spectrum}}
+See [[TAMNAMS/Appendix#Extended spectrum]] which details a more complete glossary that this set of terms is a subset of.
+
+== Naming mos intervals ==
+Mos intervals are denoted as a ''quantity'' of '''mossteps''', large or small. An interval that is k mossteps wide is referred to as a ''k-mosstep interval'' or simply ''k-mosstep'' (abbreviated as ''k''ms). A mos's intervals are a 0-mosstep or [[1/1|''unison'']], followed by a 1-mosstep, then a 2-mosstep, and so on, until an n-mosstep interval equal to the ''period'' is reached, where n is thus the number of pitches in the mos per period. If a positive integer multiple of the period equals an octave (or some close approximation thereof), that interval can be referred to plainly as an octave if one prefers, but ''mosoctave'' should not be used unless there is exactly 7 notes per octave. The prefix of mos- in the term mosstep may be replaced with the mos's prefix, specified in the section mos pattern names.
+
+In contexts where it doesn't cause ambiguity, the term ''k-mosstep'' can be shortened to ''k-step'', which allows for generalizing terminology described here to non-mos scales. Additionally, for [[non-octave]] scales that assume some generalisation of [[octave equivalence]], the term ''octave'' is replaced with the term ''equave''. Note this also means that if an n-mosstep interval is an octave, this can be referred to as the ''mosequave'' unambiguously and unconfusingly, regardless of what positive integer ''n'' is.
+
+This section's running example will be [[3L&nbsp;4s]].
+
+=== Naming specific mos intervals ===
+The phrase ''k-mosstep'' by itself does not specify the exact size of an interval. To refer to specific intervals, the familiar modifiers of ''major'', ''minor'', ''augmented'', ''diminished'' and ''perfect'' are used. As mosses have [[maximum variety]] 2, every interval (except for the [[1/1|unison]] and multiples of the [[period]] which is usually the [[2/1|octave]]) will be in no more than two sizes.
+
+The modifiers of ''major'', ''minor'', ''augmented'', ''perfect'', and ''diminished'' (abbreviated as M, m, A, P, and d respectively) are given as such:
+* Integer multiples of the period, such as the unison and (often but not always) the octave, are '''perfect''' because they only have one size each.
+* The generating intervals, or generators, are referred to as '''perfect'''. Note that a mos actually has two generators—a bright and dark generator—and both generators have two sizes each, specifically, the only time the less common size appears is at the end of the generator chain. For our running example of 3L&nbsp;4s, the generators are a 2-mosstep and 5-mosstep (the following subsection explains how to find these). Referring to a mos's generating intervals usually implies its perfect form (a.k.a the common form); specifically:
+** The large size of the bright generator is '''perfect''', and the small size is '''diminished'''.
+** The large size of the dark generator is '''augmented''', and the small size is '''perfect'''.
+* For all other intervals, the large size is '''major''' and the small size is '''minor'''.
+* For k-mossteps where k is greater than the number of pitches in the mos, those intervals have the same modifiers as an octave-reduced interval. Similarly, multiples of the octave are perfect, as are generators raised by some multiple of the octave.
+For multi-period mosses, note that both the bright and dark generators appear in every period, not just every octave, as what it means for a mos to be multi-period is that there is multiple periods per octave so that some number of periods is (intended to be interpreted to) equal the octave. Therefore, generators that are raised or lowered by some integer multiple of the mos's period are also '''perfect'''. There is an important exception in interval naming for ''n''L&nbsp;''n''s mosses, in which the generators are '''major''' and '''minor''' (for the bright and dark generator respectively) rather than augmented, perfect and diminished, and all other intervals (the octave, unison and multiples of the period) are perfect as would be expected. This is to prevent ambiguity over calling every interval present perfect.
+
+{| class="wikitable"
+|+ style="font-size: 105%;" | Names for mos intervals for 3L&nbsp;4s
+|-
+! Interval classes
+! Specific intervals
+! Interval size
+! Abbreviation
+! Gens up
+|-
+| 0-mosstep (unison)
+| Perfect unison
+| 0
+| P0ms
+| 0
+|-
+| rowspan="2" | 1-mosstep
+| Minor mosstep (or small mosstep)
+| s
+| m1ms
+| −3
+|-
+| Major mosstep (or large mosstep)
+| L
+| M1ms
+| 4
+|-
+| rowspan="2" | '''2-mosstep'''
+| Diminished 2-mosstep
+| 2s
+| d2ms
+| −6
+|-
+| '''Perfect 2-mosstep'''
+| L + s
+| P2ms
+| 1
+|-
+| rowspan="2" | 3-mosstep
+| Minor 3-mosstep
+| 1L + 2s
+| m3ms
+| −2
+|-
+| Major 3-mosstep
+| 2L + s
+| M3ms
+| 5
+|-
+| rowspan="2" | 4-mosstep
+| Minor 4-mosstep
+| 1L + 3s
+| m4ms
+| −5
+|-
+| Major 4-mosstep
+| 2L + 2s
+| M4ms
+| 2
+|-
+| rowspan="2" | '''5-mosstep'''
+| '''Perfect 5-mosstep'''
+| 2L + 3s
+| P5ms
+| −1
+|-
+| Augmented 5-mosstep
+| 3L + 2s
+| A5ms
+| 6
+|-
+| rowspan="2" | 6-mosstep
+| Minor 6-mosstep
+| 2L + 4s
+| m6ms
+| −4
+|-
+| Major 6-mosstep
+| 3L + 3s
+| M6ms
+| 3
+|-
+| 7-mosstep (octave)
+| Perfect octave
+| 3L + 4s
+| P7ms
+| 0
+|}
+
+=== Naming alterations by a chroma ===
+TAMNAMS also uses the modifiers of ''augmented'' and ''diminished'' to refer to ''alterations'' of a mos interval, much like with using sharps and flats in standard notation. Mos intervals are altered by raising or lowering it by a ''moschroma'' (or simply ''chroma'', if context allows), a generalized sharp/flat that is the difference between a large step and a small step. Raising a minor mos interval by a chroma makes it major; the reverse is true. Raising a major or perfect mos interval repeatedly makes an augmented, doubly-augmented, and a triply-augmented mos interval. Likewise, lowering a minor or perfect mos interval repeatedly makes a diminished, doubly-diminished, and a triply-diminished mos interval. A unison, period or equave that is itself augmented or diminished may also be referred to a ''mosaugmented'' or ''mosdiminished'' unison, period or equave, respectively. Here, the meaning of unison and octave does not change depending on the mos pattern, but the meanings of augmented and diminished do.
+
+Repetition of "A" or "d" is used to denote repeatedly augmented/diminished mos intervals, and is sufficient in most cases. It's typically uncommon to alter an interval more than three times, such as with a quadruply-augmented and quadruply-diminished interval; in such cases, it's preferable to use a shorthand such as A^n and d^n, or to use alternate notation or terminology.
+
+{| class="wikitable"
+|+ style="font-size: 105%;" | Table of alterations, with abbreviations
+|-
+! Number of chromas
+! Perfect intervals
+! Major/minor intervals
+|-
+| +3 chromas
+| Triply-augmented (AAA, A³, or A^3)
+| Triply-augmented (AAA, A³, or A^3)
+|-
+| +2 chromas
+| Doubly-augmented (AA)
+| Doubly-augmented (AA)
+|-
+| +1 chroma
+| Augmented (A)
+| Augmented (A)
+|-
+| rowspan="2" | 0 chromas (unaltered)
+| rowspan="2" | Perfect (P)
+| Major (M)
+|-
+| Minor (m)
+|-
+| −1 chroma
+| Diminished (d)
+| Diminished (d)
+|-
+| −2 chromas
+| Doubly-diminished (dd)
+| Doubly-diminished (dd)
+|-
+| −3 chromas
+| Triply-diminished (ddd, d³, or d^3)
+| Triply-diminished (ddd, d³, or d^3)
+|}
+
+=== Smaller intervals ===
+{| class="wikitable"
+|+ style="font-size: 105%;" | Mos intervals smaller than a moschroma
+|-
+! Interval name
+! Absolute value of a...
+|-
+| Moschroma (generalized [[chroma]], provided for reference)
+| Large step minus a small step
+|-
+| Mosdiesis (generalized [[Diesis (scale theory)|diesis]])
+| Large step minus two small steps
+|-
+| Moskleisma (generalized [[kleisma]])
+| Mosdiesis minus a moschroma
+|-
+| Mosgothma (generalized gothma)
+| Mosdiesis minus a small step
+|}
+
+=== Naming neutral and interordinal intervals===
+For a discussion of semi-moschroma-altered versions of mos intervals, see [[Neutral and interordinal k-mossteps]].
+
+=== Other terminology ===
+The tonic (unison), the period, the generator and the period-complement of the generator make up all the intervals in any given mos scale that might be labelled "perfect". With the exception of the tonic and the period, they may also be "imperfect". Therefore, the degrees of a mos scale which come in a "perfect" variety are called ''perfectable'' degrees and the degrees of a mos scale which do not come in a "perfect" variety are called ''non-perfectable'' degrees.
+
+== Naming mos degrees ==
+Individual mos degrees, (that is, specific notes of a mos scale,) or '''k-mosdegrees''' (abbreviated ''k''md), are based on the modifiers given to intervals using the process for naming mos intervals and alterations. Mosdegrees are 0-indexed and are enumerated starting at the 0-mosdegree, the tonic/root of the scale. For example, if you go up a major k-mosstep up from the root, then the mos degree reached this way is a major k-mosdegree. Much like mossteps, the prefix of mos- may also be replaced with the mos's prefix. If context allows, ''k-mosdegree'' may also be shortened to ''k-degree'' to allow generalization to non-mos scales. When the modifiers major/minor or augmented/perfect/diminished are omitted, they are assumed to be the unmodified degrees of the current mode.
+
+=== Naming mos chords ===
+To denote a chord or a mode on a given degree, write the notes of the chord separated by spaces or commas, or the mode, in parentheses after the degree symbol. The most explicit option is to write out the chord in cents, edosteps or mossteps (e.g. in [[13edo]] [[5L&nbsp;3s]], the ({{nowrap|0 369 646}}) chord can be written ({{nowrap|0 4 7}})\13, ({{nowrap|P0ms M2ms M4ms}}), or {{nowrap|7{{!}}0 (0 2 4ms)}} and to write the mode. To save space, you can use whatever names or abbreviations for the chord or mode you have defined for the reader. For example, in the LsLLsLLs mode of 5L&nbsp;3s, we have m2md(0 369 646), or the chord ({{nowrap|0 369 646}}) on the 2-mosdegree which is a minor 2-mosstep. The LsLLsLLs mode also has m2md(7|0), meaning that we have the 7|&nbsp;(LLsLLsLs) mode on the 2-mosdegree which is a minor 2-mosstep in LsLLsLLs (see [[TAMNAMS#Proposal:%20Naming%20mos%20modes|below]] for the convention we have used to name the mode).
+
+To analyze a chord as an inversion of another chord (i.e. when the bass is not seen as the root), the following strategies can be used:
+# One can write the root degree first: (6s, 0s, 2s, 7s). The first degree is assumed to be the tonic unless the following method is used:
+# One can write "T" to the left of the tonic: (0s, 2s, T6s, 7s).
+# One can use 0 for the root, using negative numbers for notes below the root. For example, to analyze (0s, 2s, 6s, 7s) on the 7-degree of the LsLLsLLs mode as being rooted on its 6s (thus on the 5-degree of LsLLsLLs), we write 5d(0s, −6s, −4s, 1s). The "5d" here is essential for avoiding confusion with the previous notation.
+# If clarity is desired as to what the root position chord is, slash notation can be used as in conventional notation. Thus the above chord can be written 5d(0s 1s 2s 4s)/7d.
+
+== Mos pattern names==
+TAMNAMS uses the following names for selected small mosses. These names are optional; interval size names and step ratio names can be combined with conventional ''xL ys'' names. For example: ''21edo is the soft [[5L&nbsp;3s]] tuning and its major 2-step is a neutral third of size 342.9 cents.''
+
+Some of the names come from older temperament-agnostic mos names, such as names (such as ''mosh'') from [[Graham Breed]]'s [[Graham Breed's MOS naming scheme|mos names]]. These names have been coined so that mosses can be discussed more independently of RTT temperaments. Sometimes the prefix has a different source than the scale name for euphonic reasons.
+
+=== Names for mosses with 6-10 steps ===
+This list is maintained by [[User:Inthar]] and [[User:Godtone]].
+
+{| class="wikitable center-all"
+|+ style="font-size: 105%;" | TAMNAMS moss names
+|-
+! colspan="5" | 6-note mosses
+|-
+! Pattern !! Name !! Prefix<ref group="note" name="prefix">used in interval, degree and mode names, e.g. ''perfect 3-oneirostep, perfect 3-oneirodegree, oneiro-3-up''</ref> !! Abbr.<ref group="note" name="abbr">written abbreviations of prefixes, e.g. ''P3oneis, P3oneid, onei-3|4''</ref> !! Etymology
+|-
+| [[1L&nbsp;5s]] || antimachinoid || amech- || amk || Opposite pattern of machinoid.
+|-
+| [[2L&nbsp;4s]] || malic || mal- || mal || Sister mos of 4L&nbsp;2s; apples have concave ends, whereas lemons/limes have convex ends.
+|-
+| [[3L&nbsp;3s]] || triwood || triwd- || tw || [[Blackwood]][10] and [[whitewood]][14] generalized to 3 periods.
+|-
+| [[4L&nbsp;2s]] || citric || citro- || cit || Parent (or subset) mos of 4L&nbsp;6s and 6L&nbsp;4s.
+|-
+| [[5L&nbsp;1s]] || machinoid || mech- || mk || From [[machine]] temperament.
+|-
+! colspan="5" | 7-note mosses
+|-
+! Pattern !! Name !! Prefix !! Abbr. !! Etymology
+|-
+| [[1L&nbsp;6s]] || onyx || on- || on || Sounds like "one-six" depending on one's pronunciation; also called ''anti-archeotonic<ref group="note" name="anti-name">Alternate name based on the name of its sister mos, with anti- prefix added.</ref>''.
+|-
+| [[2L&nbsp;5s]] || antidiatonic || pel- || pel || Opposite pattern of diatonic; pel- is from pelog.
+|-
+| [[3L&nbsp;4s]] || mosh || mosh- || mosh || From "mohajira-ish", a name from [[Graham Breed's MOS naming scheme|Graham Breed's naming scheme]].
+|-
+| [[4L&nbsp;3s]] || smitonic || smi- || smi || From "sharp minor third".
+|-
+| [[5L&nbsp;2s]] || diatonic || dia- || dia || 
+|-
+| [[6L&nbsp;1s]] || archaeotonic || arch- || arc || Originally a name for 13edo's 6L&nbsp;1s scale; also called ''archæotonic/archeotonic<ref group="note" name="spelling">Spelling variant.</ref>''.
+|-
+! colspan="5" | 8-note mosses
+|-
+! Pattern !! Name !! Prefix !! Abbr. !! Etymology
+|-
+| [[1L&nbsp;7s]] || antipine || apine- || ap || Opposite pattern of pine.
+|-
+| [[2L&nbsp;6s]] || subaric || subar- || sb || Parent (or subset) mos of 2L&nbsp;8s and 8L&nbsp;2s.
+|-
+| [[3L&nbsp;5s]] || checkertonic || check- || chk || From the [[Kite Giedraitis's Categorizations of 41edo Scales|Kite guitar checkerboard scale]].
+|-
+| [[4L&nbsp;4s]] || tetrawood || tetrawd- || ttw || Blackwood[10] and whitewood[14] generalized to 4 periods; also called ''diminished<ref group="note" name="unofficial2">Common name no longer recommend by TAMNAMS due to risk of ambiguity. Provided for reference.</ref>.''
+|-
+| [[5L&nbsp;3s]] || oneirotonic || oneiro- || onei || Originally a name for 13edo's 5L&nbsp;3s scale; also called ''oneiro''<ref group="note">Shortened form of name.</ref>.
+|-
+| [[6L&nbsp;2s]] || ekic || ek- || ek || From [[echidna]] and [[hedgehog]] temperaments.
+|-
+| [[7L&nbsp;1s]] || pine || pine- || p || From [[porcupine]] temperament.
+|-
+! colspan="5" | 9-note mosses
+|-
+! Pattern !! Name !! Prefix !! Abbr. !! Etymology
+|-
+| [[1L&nbsp;8s]] || antisubneutralic || ablu- || ablu || Opposite pattern of subneutralic.
+|-
+| [[2L&nbsp;7s]] || balzano || bal- || bz || Originally a name for 20edo's 2L&nbsp;7s (and 2L 11) scales; bal- is pronounced /bæl/.
+|-
+| [[3L&nbsp;6s]] || tcherepnin || cher- || ch || In reference to Tcherepnin's 9-note scale in 12edo.
+|-
+| [[4L&nbsp;5s]] || gramitonic || gram- || gm || From "grave minor third".
+|-
+| [[5L&nbsp;4s]] || semiquartal || cthon- || ct || From "half fourth"; cthon- is from "chthonic".
+|-
+| [[6L&nbsp;3s]] || hyrulic || hyru- || hy || References [[triforce]] temperament.
+|-
+| [[7L&nbsp;2s]] || armotonic || arm- || arm || From [[Armodue]] theory; also called ''superdiatonic<ref group="note" name="unofficial2" />.''
+|-
+| [[8L&nbsp;1s]] || subneutralic || blu- || blu || Derived from the generator being between supraminor and neutral quality; blu- is from [[bleu]] temperament.
+|-
+! colspan="5" | 10-note mosses
+|-
+! Pattern !! Name !! Prefix !! Abbr. !! Etymology
+|-
+| [[1L&nbsp;9s]] || antisinatonic || asina- || asi || Opposite pattern of sinatonic.
+|-
+| [[2L&nbsp;8s]] || jaric || jara- || ja || From [[pajara]], [[injera]], and [[diaschismic]] temperaments.
+|-
+| [[3L&nbsp;7s]] || sephiroid || seph- || sp || From [[sephiroth]] temperament.
+|-
+| [[4L&nbsp;6s]] || lime || lime- || lm || Sister mos of 6L&nbsp;4s; limes are smaller than lemons, as are 4L&nbsp;6s's step sizes compared to 6L&nbsp;4s.
+|-
+| [[5L&nbsp;5s]] || pentawood || pentawd- || pw || Blackwood[10] and whitewood[14] generalized to 5 periods.
+|-
+| [[6L&nbsp;4s]] || lemon || lem- || le || From [[lemba]] temperament. Also sister mos of 4L&nbsp;6s.
+|-
+| [[7L&nbsp;3s]] || dicoid || dico- || di || From [[Dicot family#Dichotic|dichotic]] and [[dicot]] (dicoid) exotemperaments; pronounced /'daɪˌkɔɪd/.
+|-
+| [[8L&nbsp;2s]] || taric || tara- || ta || Sister mos of 2L&nbsp;8s; based off of the [[wikipedia:Hindustani_numerals|Hindi]] word for 18 (aṭhārah), since 18edo contains basic 8L&nbsp;2s.
+|-
+| [[9L&nbsp;1s]] || sinatonic || sina- || si || Derived from the generator being within the range of a [[sinaic]].
+|}
+<references group="note" />
+
+=== Expansion to smaller mosses ===
+For names for mosses with fewer than 6 steps, see [[TAMNAMS/Appendix#Expanding names for smaller mosses|here]].
+
+=== Expansion to larger mosses ===
+{{see also| TAMNAMS Extension}}
+Various users have proposed names for mosses with more than 10 steps, commonly referred to as "TAMNAMS extensions". Chief among these are the following:
+
+* [[User:Frostburn/TAMNAMS Extension]]
+* [[User:Ganaram inukshuk/TAMNAMS Extension]]
+
+== Naming mos modes ==
+By default, TAMNAMS uses a simplified version of [[Modal UDP notation]] which specifies the number of generators up and down without multiplying them by the number of periods per equave. This only affects how the modes of multi-period MOS scales are written: for example, the modes of 4L&nbsp;2s are written as 2|0, 1|1, and 0|2, instead of 4|0(2), 2|2(2), and 0|2(4). The modes for single-period MOS scales, such as 5|2 in 5L&nbsp;3s, are written the same way to that of standard UDP notation.
+
+Other mode notation schemes or mode names can be used instead, if desired.
+{{MOS mode degrees|Scale Signature=5L 3s|MOS Prefix=mos|Mode Names=Default}}
+For modes with altered scale degrees, the abbreviations for the scale degrees are listed after the UDP for the mode.
+{{MOS mode degrees|Scale Signature=5L 3s|MOS Prefix=mos|MODMOS Step Pattern=LsLsLLLs|Mode Names=Default}}
+Notation, such as [[Diamond-mos notation|diamond-mos]], can be used instead of the abbreviation of a mosdegree. For example, LsLsLLLs can be written {{nowrap|"5L 3s 5{{!}}2 m4md"}}. {{nowrap|"5L 3s 5{{!}}2 @4d"}}.
+
+For a mos pattern given a name in TAMNAMS, there is also the option of using the prefix for the pattern instead of saying "xL ys": the 5L&nbsp;3s mode LsLLsLLs can be written "onei-5|2".
+
+== Generalization to non-mos scales ==
+=== Intervals in arbitrary scales ===
+Zero-indexed interval names are also used for arbitrary scales, so we can still call a k-step interval a ''k-step'' and the corresponding degree the ''k-degree''. But instead of ''k-mosstep'' and ''k-mosdegree'', we use ''k-scalestep'' and ''k-scaledegree'' for arbitrary scales.
+
+=== Proposal: Naming ternary scales' step ratios===
+Analogously to binary scales including mosses, ternary scales, i.e. those with three step sizes {{nowrap|L &gt; M &gt; S}}, including [[MV3]] scales, can also be defined by their L:M:S ratios. Here TAMNAMS names the L/M ratio and then the M/S ratio as if these were mos step ratios: for example, [[21edo]] [[diasem]] (5L&nbsp;2M&nbsp;2s, LMLSLMLSL or its inverse) has a step ratio of {{nowrap|L:M:S {{=}} 3:2:1}}, so we name it ''soft-basic diasem''. If the ratios are the same, repetition may optionally be omitted, so that [[26edo]] diasem, 4:2:1, may optionally be called "basic diasem" instead of "basic-basic diasem". Not to be confused with step ratios where one ratio is unspecified; for that, use:
+
+* x:y:z (where x:y is known but y:z is not) is called ''(hardness term for x/y)-any''. x:x:1 is called ''equalized-any'' or ''LM-equalized'' (where {{nowrap|x &ge; 1}} represents a free variable).
+* x:y:z (where y:z is known but x:y is not) is called ''any-(hardness term for y/z)''. x:1:1 is called ''any-equalized'' or ''MS-equalized'' (where {{nowrap|x &ge; 1}} represents a free variable).
+* x:y:z (where x:z is known but x:y and y:z are not) is called ''outer-(hardness term for x/z)-any''. x:1:x is called ''outer-equalized-any'' or ''LS-equalized''. (where {{nowrap|x &ge; 0}} represents a free variable).
+
+=== Naming MV3 intervals ===
+[[MV3]] scales, such as [[diasem]], have at most 3 sizes for each interval class. For every interval class that occurs in exactly 3 sizes, we use ''large'', ''medium'', and ''small k-step''. For every interval class that occurs in 2 sizes, we use ''large k-step'' and ''small k-step''.  If an interval class only has one size, then we call it ''perfect k-step''.
+
+== Appendix==
+=== Reasoning for step ratio names ===
+{{Main|TAMNAMS/Appendix#Reasoning for step ratio names}}
+
+=== Reasoning for mos interval names ===
+{{Main|TAMNAMS/Appendix#Reasoning for mos interval names}}
+
+=== Reasoning for mos pattern names ===
+{{Main|TAMNAMS/Appendix#Reasoning for mos pattern names}}
+
+[[Category:TAMNAMS]]

@@ -1,0 +1,903 @@
+{{Idiosyncratic terms|Many of the mos names described on this page are proposals and are not in common use.}}
+This is a systematic extension for the [[TAMNAMS]] MOS scale naming system based on relationships of a named mos (parent, grandparent, great-grandparent, etc). It's intended for a user interface so that every MOS pattern has a memorable name. There's also a more [[User:Frostburn/TAMNAMS_Extension|euphonic version]] at least for [[User:Frostburn]]'s taste.
+
+== Naming mos descendants ==
+To name mosses that have more than 10 notes, names are based on how they're related to a parent mos (whether it's a child, grandchild, etc) and what step ratio produces that descendant, added as a prefix to the name. This section is currently work-in-progress and currently describes two systems devised by [[User:Frostburn/TAMNAMS Extension|Frostburn]] and [[User:Ganaram inukshuk/TAMNAMS Extension|Ganaram inukshuk]].
+
+{| class="wikitable"
+|+ style="font-size: 105%;" | Base names
+|-
+! 
+! Child (1st descendant)
+! Grandchild (2nd descendant)
+! Great-grandchild (3rd descendant)
+! ''k''th descendant
+! Other notes
+|-
+! Frostburn's proposal
+| (prefix)-chro (parent's name)
+| (prefix)-enhar (grandparent's name)
+| (prefix)-(great-grandparent's name)
+| 
+| 
+|-
+! Ganaram's proposal
+| (prefix)-chromatic (mos-name)<br />(prefix)-(mos-prefix)chromatic
+| (prefix)-enharmonic (mos-name)<br />(prefix)-(mos-prefix)enharmonic
+| (prefix)-subchromatic (mos-name)<br />(prefix)-(mos-prefix)subchromatic
+| ''k''th-descendant (mos-name)<br />''k''th-(mos-prefix)descendant
+| Prefixes are optional.<br />Names are work-in-progress.
+|}
+
+{| class="wikitable"
+|+ style="font-size: 105%;" | Step ratio prefixes
+|-
+! colspan="2" | Parent mos
+! colspan="4" | Child (1st descendant)
+! colspan="4" | Grandchild (2nd descendant)
+! colspan="4" | Great-grandchild (3rd descendant)
+|-
+! rowspan="2" | Mos
+! rowspan="2" | L:s range
+! rowspan="2" | Mos
+! colspan="2" | Prefix
+! rowspan="2" | L:s range
+! rowspan="2" | Mos
+! colspan="2" | Prefix
+! rowspan="2" | L:s range
+! rowspan="2" | Mos
+! colspan="2" | Prefix
+! rowspan="2" | L:s range
+|-
+! Frostburn
+! Ganaram
+! Frostburn
+! Ganaram
+! Frostburn
+! Ganaram
+|-
+| rowspan="8" | {{nowrap|''x''L ''y''s}}
+| rowspan="8" | 1:1 to 1:0
+| rowspan="4" | (''x'' + ''y'')L xs
+| rowspan="4" | m-
+| rowspan="4" | s-
+| rowspan="4" | 1:1 to 2:1<br />(general soft range)
+| rowspan="2" | {{nowrap|(''x'' + ''y'')L (2''x'' + ''y'')s}}
+| rowspan="2" | f-
+| rowspan="2" | s-
+| rowspan="2" | 1:1 to 3:2<br />(soft)
+| {{nowrap|(''x'' + ''y'')L (3''x'' + 2''y'')s}}
+| uso-
+| us-
+| 1:1 to 4:3<br />(ultrasoft)
+|-
+| {{nowrap|(3''x'' + 2''y'')L (''x'' + ''y'')s}}
+| paso-
+| ps-
+| 4:3 to 3:2<br />(parasoft)
+|-
+| rowspan="2" | {{nowrap|(2''x'' + ''y'')L (''x'' + ''y'')s}}
+| rowspan="2" | m-
+| rowspan="2" | os-
+| rowspan="2" | 3:2 to 2:1<br />(hyposoft)
+| {{nowrap|(3''x'' + 2''y'')L (2''x'' + ''y'')s}}
+| quso-
+| qs-
+| 3:2 to 5:3<br />(quasisoft)
+|-
+| {{nowrap|(2''x'' + ''y'')L (3''x'' + 2''y'')s}}
+| miso-
+| ms-
+| 5:3 to 2:1<br />(minisoft)
+|-
+| rowspan="4" | {{nowrap|''x''L (''x'' + ''y'')s}}
+| rowspan="4" | p-
+| rowspan="4" | h-
+| rowspan="4" | 2:1 to 1:0<br />(general hard range)
+| rowspan="2" | (2''x'' + ''y'')L xs
+| rowspan="2" | p-
+| rowspan="2" | oh-
+| rowspan="2" | 2:1 to 3:1<br />(hypohard)
+| {{nowrap|(2''x'' + ''y'')L (3''x'' + ''y'')s}}
+| miha-
+| mh-
+| 2:1 to 5:2<br />(minihard)
+|-
+| {{nowrap|(3''x'' + ''y'')L (2''x'' + ''y'')s}}
+| quha-
+| qh-
+| 5:2 to 3:1<br />(quasihard)
+|-
+| rowspan="2" | {{nowrap|''x''L (2''x'' + ''y'')s}}
+| rowspan="2" | s-
+| rowspan="2" | h-
+| rowspan="2" | 3:1 to 1:0<br />(hard)
+| (3''x'' + ''y'')L xs
+| paha-
+| ph-
+| 3:1 to 4:1<br />(parahard)
+|-
+| {{nowrap|''x''L (3''x'' + ''y'')s}}
+| uha-
+| uh-
+| 4:1 to 1:0<br />(ultrahard)
+|}
+
+== Other MOS families ==
+=== Wood scales ===
+Trivial multi-MOS scales of ''k'' periods (mosses of the form ''k''L ''k''s) are named '''''k''-wood''.''''' If ''k'' is greater than 5 and no greater than 12, these can be written out as ''(Greek numeral prefix)''wood, as shown in the table below.
+
+{| class="wikitable"
+|-
+! MOS
+! Name
+! Prefix
+! Abbrev.
+|-
+| 6L&nbsp;6s
+| hexawood
+| hexwd-
+| hxw
+|-
+| 7L&nbsp;7s
+| heptawood
+| hepwd-
+| hpw
+|-
+| 8L&nbsp;8s
+| octawood
+| octwd-
+| ocw
+|-
+| 9L&nbsp;9s
+| enneawood
+| ennwd-
+| enw
+|-
+| 10L&nbsp;10s
+| decawood
+| decwd-
+| dkw
+|-
+| 11L&nbsp;11s
+| hendecawood
+| hedwd-
+| hdw
+|-
+| 12L&nbsp;12s
+| dodecawood
+| dodwd-
+| ddw
+|-
+| 13L&nbsp;13s
+| 13-wood
+| 13wd-
+| 13w
+|-
+| 14L&nbsp;14s
+| 14-wood
+| 14wd-
+| 14w
+|-
+| ''k''L&nbsp;''k''s
+| ''k''-wood
+| ''k''wd
+| ''k''w
+|}
+
+=== Diatonic family ===
+This system introduces the following names for (grand)daughters of diatonic [[5L&nbsp;2s]].
+
+{| class="wikitable center-all"
+|+ style="font-size: 105%;" | Diatonic family tree
+|-
+! colspan="3" | Daughters
+|-
+! Pattern !! Name !! Notes
+|-
+| [[5L&nbsp;7s]] || p-chromatic || Chromatic scale from pythagorean generator 3/2. S-chromatic is an alternative name.
+|-
+| [[7L&nbsp;5s]] || m-chromatic || Chromatic scale of [[meantone]]. F-chromatic is an alternative name.
+|-
+! colspan="3" | Granddaughters
+|-
+! Pattern !! Name !! Notes
+|-
+| [[12L&nbsp;5s]] || p-enharmonic || Enharmonic scale from pythagorean generator.
+|-
+| [[5L&nbsp;12s]] || s-enharmonic || Enharmonic scale of [[superpyth]].
+|-
+| [[12L&nbsp;7s]] || m-enharmonic || Enharmonic scale of meantone.
+|-
+| [[7L&nbsp;12s]] || f-enharmonic || Enharmonic scale of [[flattone]].
+|-
+! colspan="3" | Great-granddaughters
+|-
+! Pattern !! Name !! Notes
+|-
+| [[12L&nbsp;17s]] || pythagotonic || Generator is 3/2. Small step is the [[Pythagorean comma]]
+|-
+| [[17L&nbsp;12s]] || gothitonic || Generator falls in the [[Gentle region|neo-gothic range]].
+|-
+| [[19L&nbsp;12s]] || fauxarabian || One possible generator is double of neutral third [[11/9]] while the scale still sounds neutral
+|-
+| [[12L&nbsp;19s]] || fauxrussian || Faux-cyrilic font is the "opposite" of faux-arabic
+|-
+| [[17L&nbsp;5s]] || protofractalic || Daughter scales exhibit fractal-like acoustic effects
+|-
+| [[5L&nbsp;17s]] || reinhardic || Possible generator [[50/33]] is similar to 5edo's fifth (Reinhard notation)
+|-
+| [[19L&nbsp;7s]] || velic || Possible generator [[112/75]] is called the mar'''velous''' fifth
+|-
+| [[7L&nbsp;19s]] || siskoic || Play on words: ''Veli'' means brother in Finnish and ''sisko'' means sister.
+|-
+! colspan="3" | Great-great-granddaughters
+|-
+! Pattern !! Name !! Notes
+|-
+| [[12L&nbsp;29s]] || pythamystonic || Generator is 3/2. Large step is [[29-comma|mystery comma]]. Small step is pythagorean comma.
+|-
+| [[29L&nbsp;12s]] || antipythamystonic ||
+|-
+| [[12L&nbsp;31s]] || fauxmuscovian || Parent is fauxrussian. Muscovy is a sub region of Russia.
+|-
+| [[31L&nbsp;12s]] || fauxsiberian || Parent is fauxrussian. Siberia is a sub region of Russia.
+|-
+| [[19L&nbsp;31s]] || fauxsaudi || Parent is fauxarabian. Saudis live in a sub region of Arabia.
+|-
+| [[31L&nbsp;19s]] || fauxomani || Parent is fauxarabian. Omani live in a sub region of Arabia.
+|-
+| [[22L&nbsp;17s]] || fractalic || Exhibits fractal-like acoustic effects.
+|-
+| [[17L&nbsp;22s]] || antifractalic || 
+|-
+| [[17L&nbsp;29s]] || perotinic || Parent is gothitonic. Pérotin has been described as the first modern composer in the Western tradition.
+|-
+| [[29L&nbsp;17s]] || martinic || Parent is gothitonic. Simone Martini influenced Gothic style painting.
+|-
+| [[19L&nbsp;26s]] || veljentyttonic || Parent is velic. ''Veljentyttö'' means niece from the brother's side in Finnish.
+|-
+| [[26L&nbsp;19s]] || veljenpoikanic || Parent is velic. ''Veljenpoika'' means nephew from the brother's side in Finnish.
+|-
+| [[7L&nbsp;26s]] || siskontyttonic || Parent is siskoic. ''Siskontyttö'' means niece from the sister's side in Finnish.
+|-
+| [[26L&nbsp;7s]] || siskonpoikanic || Parent is siskoic. ''Siskonpoika'' means nephew from the sister's side in Finnish.
+|-
+| [[5L&nbsp;22s]] || reinatonic || Parent is reinhardic.
+|-
+| [[22L&nbsp;5s]] || antireinatonic || Parent is reinhardic.
+|-
+! colspan="3" | Great-great-great-granddaughters
+|-
+! Pattern !! Name !! Notes
+|-
+| [[12L&nbsp;41s]]
+| antipythomerc
+| 
+|-
+| [[41L&nbsp;12s]] || pythomerc || Generator is 3/2. Transitional scale between ones dominated by pythagorean and mercator commas.
+|-
+|}
+
+== Other MOS names ==
+=== Specific names for mosses with 11 to 15 notes ===
+{| class="wikitable"
+|-
+! colspan="4" | 11-note mosses
+|-
+! Pattern
+! Suggested name(s)
+! Proposed by
+! Reasoning
+|-
+| 1L&nbsp;10s
+| tanzanite or tenorite
+| [[User:Ganaram inukshuk|Ganaram inukshuk]]
+| More naming puns ('''ten'''zanite or '''ten'''orite). Prefix is tan-.
+|-
+| 4L&nbsp;7s
+| kleistonic
+| 
+| Restoration of a noteworthy, former name. References the [[kleismic family]] of temperaments. Prefix is klei-.<br />Extension name is p-chro smitonic, hard-chromatic smitonic, or hard smichromatic, depending on scheme.
+|-
+| rowspan="2" | 7L&nbsp;4s
+| suprasmitonic
+| 
+| Restoration of a noteworthy, former name.<br />Extension name is m-chro smitonic, soft-chromatic smitonic, or soft smichromatic, depending on scheme. Prefix is susmi-.
+|-
+| daemotonic
+| [[User:Eliora|Eliora]]
+| Various reasons; see [[7L&nbsp;4s]].
+|-
+| rowspan="2" | 9L&nbsp;2s
+| villatonic
+| [[User:Ganaram inukshuk|Ganaram inukshuk]]
+| Indirectly references avila and casablanca temperaments. Prefix is vil-.
+|-
+| ultradiatonic, superarmotonic
+| [[User:CompactStar|CompactStar]]
+| In reference to diatonic and armotonic.
+|-
+! colspan="4" | 12-note mosses
+|-
+! Pattern
+! Suggested name(s)
+! Proposed by
+! Reasoning
+|-
+| 1L&nbsp;11s
+| helenite
+| [[User:Ganaram inukshuk|Ganaram inukshuk]]
+| In reference to the "ele" substring found in the word "eleven". Prefix is hel-.
+|-
+| 5L&nbsp;7s
+| p-chromatic
+| 
+| Restoration of a noteworthy, former name.
+|-
+| 6L&nbsp;6s
+| hexawood
+| 
+| Extension of -wood scales; coincidentally references hexe temperament.
+|-
+| 7L&nbsp;5s
+| m-chromatic
+| 
+| Restoration of a noteworthy, former name.
+|-
+! colspan="4" | 13-note mosses
+|-
+! Pattern
+! Suggested name(s)
+! Proposed by
+! Reasoning
+|-
+| 1L&nbsp;12s
+| zircon
+| [[User:Ganaram inukshuk|Ganaram inukshuk]]
+| Zircon is used as a birthstone for December. Prefix is zir-.
+|-
+| 11L&nbsp;2s
+| hendecoid
+| [[User:Eliora|Eliora]]
+| From Greek "eleven"; references how "its generator is so close to 11/8 as to be called nothing but that" and that it has 11 large steps. Prefix is hen-.
+|-
+! colspan="4" | 14-note mosses
+|-
+! Pattern
+! Suggested name(s)
+! Proposed by
+! Reasoning
+|-
+| 7L&nbsp;7s
+| heptawood
+| 
+| Extension of -wood scales.
+|-
+| 13L&nbsp;1s
+| trollic
+| [[User:Godtone|Godtone]]
+| The name proposed by Godtone refers to 12L&nbsp;1s, but it refers to 13L&nbsp;1s as a troll move. Prefix is tro-.
+|}
+
+=== Other names for mosses with 16 or more notes ===
+{| class="wikitable"
+|-
+! colspan="5" | Other higher note count mosses
+|-
+! Note count
+! Pattern
+! Suggested name(s)
+! Proposed by
+! Reasoning
+|-
+| 17
+| 2L&nbsp;15s
+| liesic
+| [[User:Frostburn|Frostburn]]
+| Frostburn's naming scheme only goes up to 3 generations, so this name is suggested. Prefix is lisa-.
+|-
+| rowspan="2" | 19
+| 3L&nbsp;16s
+| magicaltonic
+| [[User:Xenllium|Xenllium]]
+| In reference to magic temperament.
+|-
+| 16L&nbsp;3s
+| muggletonic
+| [[User:Xenllium|Xenllium]]
+| In reference to muggle temperament.
+|-
+| 20
+| 3L&nbsp;17s
+| apritonic
+| [[User:Frostburn|Frostburn]]
+| A [[User:Frostburn/History_of_Apritonic|meme]] referencing Apricot XEN computers.
+|-
+| 21
+| 10L&nbsp;11s
+| miracloid
+| [[User:Eliora|Eliora]]
+| In reference to miracle temperament.
+|-
+| rowspan="3" | 22
+| 3L&nbsp;19s
+| zheligowskic
+| [[User:Frostburn|Frostburn]]
+| In reference to Lucjan Żeligowski leading fights against the town of Giedraičiai. Proposed prefix is "zheli-".
+|-
+| 19L&nbsp;3s
+| giedraitic
+| [[User:Frostburn|Frostburn]]
+| Named after the basic magic layout of [[Kite Giedraitis]]' [[Kite guitar|guitar]]. Proposed prefix is "kai-".
+|-
+| 21L&nbsp;1s
+| escapist
+| [[User:Eliora|Eliora]]
+| References escapade temperament, which is supported by both 21edo and 22edo, covering the entire range.
+|-
+| 23
+| 22L&nbsp;1s
+| quartismoid
+| [[User:Eliora|Eliora]]
+| Five generators of roughly 33/32 quartertone are equal to 7/6 in the harmonic entropy minimum; also, the extreme ranges of 22edo and 23edo both support this mos.
+|}
+
+== Table of MOS scales up to 22 notes ==
+The table below lists all MOS scales and their stems needed to generate everything with assignable names in the system.
+
+{| class="wikitable center-all"
+|+ style="font-size: 105%;" | TAMNAMS mos names extended
+|-
+! colspan="3" | 11-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[1L&nbsp;10s]] || tanzanite<br />(p-chro antisinatonic) || tan
+|-
+| [[2L&nbsp;9s]] || antivillatonic<br />(p-chro balzano) || anvil
+|-
+| [[3L&nbsp;8s]] || p-chro checkertonic || ''none''
+|-
+| [[4L&nbsp;7s]] || kleistonic<br />(p-chro smitonic) || klei
+|-
+| [[5L&nbsp;6s]] || p-chro machinoid || ''none''
+|-
+| [[6L&nbsp;5s]] || m-chro machinoid || ''none''
+|-
+| [[7L&nbsp;4s]] || daemotonic<br />(m-chro smitonic) || susmi
+|-
+| [[8L&nbsp;3s]] || m-chro checkertonic || ''none''
+|-
+| [[9L&nbsp;2s]] || villatonic<br />(m-chro balzano) || vil
+|-
+| [[10L&nbsp;1s]] || antitanzanite<br />(m-chro antisinatonic) || antan
+|-
+! colspan="3" | 12-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[1L&nbsp;11s]] || helenite<br />(s-enhar antisinatonic) || hel
+|-
+| [[2L&nbsp;10s]] || p-chro jaric || ''none''
+|-
+| [[3L&nbsp;9s]] || p-chro tcherepnin || ''none''
+|-
+| [[4L&nbsp;8s]] || p-chro tetrawood || ''none''
+|-
+| [[5L&nbsp;7s]] || p-chromatic || pychro
+|-
+| [[6L&nbsp;6s]] || hexawood || hexwd
+|-
+| [[7L&nbsp;5s]] || m-chromatic || mellow
+|-
+| [[8L&nbsp;4s]] || m-chro tetrawood || ''none''
+|-
+| [[9L&nbsp;3s]] || m-chro tcherepnin || ''none''
+|-
+| [[10L&nbsp;2s]] || m-chro jaric || ''none''
+|-
+| [[11L&nbsp;1s]] || antihelenite<br />(p-enhar antisinatonic) || anhel
+|-
+! colspan="3" | 13-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[1L&nbsp;12s]] || zircon<br />(uha-antisinatonic) || zir
+|-
+| [[2L&nbsp;11s]] || antihendecoid<br />(s-enhar balzano) || anhen
+|-
+| [[3L&nbsp;10s]] || p-chro sephiroid || ''none''
+|-
+| [[4L&nbsp;9s]] || p-chro gramitonic || ''none''
+|-
+| [[5L&nbsp;8s]] || p-chro oneirotonic || ''none''
+|-
+| [[6L&nbsp;7s]] || p-chro archeotonic || ''none''
+|-
+| [[7L&nbsp;6s]] || m-chro archeotonic || ''none''
+|-
+| [[8L&nbsp;5s]] || m-chro oneirotonic || ''none''
+|-
+| [[9L&nbsp;4s]] || m-chro gramitonic || ''none''
+|-
+| [[10L&nbsp;3s]] || m-chro sephiroid || ''none''
+|-
+| [[11L&nbsp;2s]] || hendecoid<br />(p-enhar balzano) || hen
+|-
+| [[12L&nbsp;1s]] || antizircon<br />(paha-antisinatonic) || anzir
+|-
+! colspan="3" | 14-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[1L&nbsp;13s]] || antrollic || antro
+|-
+| [[2L&nbsp;12s]] || s-enhar jaric || ''none''
+|-
+| [[3L&nbsp;11s]] || s-enhar checkertonic || ''none''
+|-
+| [[4L&nbsp;10s]] || p-chro lime || ''none''
+|-
+| [[5L&nbsp;9s]] || p-chro semiquartal || ''none''
+|-
+| [[6L&nbsp;8s]] || p-chro ekic || ''none''
+|-
+| [[7L&nbsp;7s]] || heptawood || heptwd
+|-
+| [[8L&nbsp;6s]] || m-chro ekic || ''none''
+|-
+| [[9L&nbsp;5s]] || m-chro semiquartal || ''none''
+|-
+| [[10L&nbsp;4s]] || m-chro lime || ''none''
+|-
+| [[11L&nbsp;3s]] || p-enhar checkertonic || ''none''
+|-
+| [[12L&nbsp;2s]] || p-enhar jaric || ''none''
+|-
+| [[13L&nbsp;1s]] || trollic || tro
+|-
+! colspan="3" | 15-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[1L&nbsp;14s]] || p-chro antrollic || ''none''
+|-
+| [[2L&nbsp;13s]] || uha-balzano || ''none''
+|-
+| [[3L&nbsp;12s]] || s-enhar tcherepnin || ''none''
+|-
+| [[4L&nbsp;11s]] || s-enhar smitonic || ''none''
+|-
+| [[5L&nbsp;10s]] || p-chro pentawood || ''none''
+|-
+| [[6L&nbsp;9s]] || p-chro hyrulic || ''none''
+|-
+| [[7L&nbsp;8s]] || p-chro pine || ''none''
+|-
+| [[8L&nbsp;7s]] || m-chro pine || ''none''
+|-
+| [[9L&nbsp;6s]] || m-chro hyrulic || ''none''
+|-
+| [[10L&nbsp;5s]] || m-chro pentawood || ''none''
+|-
+| [[11L&nbsp;4s]] || p-enhar smitonic || ''none''
+|-
+| [[12L&nbsp;3s]] || p-enhar tcherepnin || ''none''
+|-
+| [[13L&nbsp;2s]] || paha-balzano || ''none''
+|-
+| [[14L&nbsp;1s]] || m-chro antrollic || ''none''
+|-
+! colspan="3" | 16-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[1L&nbsp;15s]] || s-enhar antrollic || ''none''
+|-
+| [[2L&nbsp;14s]] || uha-jaric || ''none''
+|-
+| [[3L&nbsp;13s]] || s-enhar sephiroid || ''none''
+|-
+| [[4L&nbsp;12s]] || s-enhar tetrawood || ''none''
+|-
+| [[5L&nbsp;11s]] || s-enhar machinoid || ''none''
+|-
+| [[6L&nbsp;10s]] || p-chro lemon || ''none''
+|-
+| [[7L&nbsp;9s]] || p-chro superdiatonic || ''none''
+|-
+| [[8L&nbsp;8s]] || octawood || octwd
+|-
+| [[9L&nbsp;7s]] || m-chro superdiatonic || ''none''
+|-
+| [[10L&nbsp;6s]] || m-chro lemon || ''none''
+|-
+| [[11L&nbsp;5s]] || p-enhar machinoid || ''none''
+|-
+| [[12L&nbsp;4s]] || p-enhar tetrawood || ''none''
+|-
+| [[13L&nbsp;3s]] || p-enhar sephiroid || ''none''
+|-
+| [[14L&nbsp;2s]] || paha-jaric || ''none''
+|-
+| [[15L&nbsp;1s]] || p-enhar antrollic || ''none''
+|-
+! colspan="3" | 17-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[1L&nbsp;16s]] || uha-antrollic || ''none''
+|-
+| [[2L&nbsp;15s]] || liesic || lisa
+|-
+| [[3L&nbsp;14s]] || uha-checkertonic || ''none''
+|-
+| [[4L&nbsp;13s]] || s-enhar gramitonic || ''none''
+|-
+| [[5L&nbsp;12s]] || s-enharmonic || supen
+|-
+| [[6L&nbsp;11s]] || f-enhar machinoid || ''none''
+|-
+| [[7L&nbsp;10s]] || p-chro dicoid || ''none''
+|-
+| [[8L&nbsp;9s]] || p-chro subneutralic || ''none''
+|-
+| [[9L&nbsp;8s]] || m-chro subneutralic || ''none''
+|-
+| [[10L&nbsp;7s]] || m-chro dicoid || ''none''
+|-
+| [[11L&nbsp;6s]] || m-enhar machinoid || ''none''
+|-
+| [[12L&nbsp;5s]] || p-enharmonic || pyen
+|-
+| [[13L&nbsp;4s]] || p-enhar gramitonic || ''none''
+|-
+| [[14L&nbsp;3s]] || paha-checkertonic || ''none''
+|-
+| [[15L&nbsp;2s]] || antiliesic || alisa
+|-
+| [[16L&nbsp;1s]] || paha-antrollic || ''none''
+|-
+! colspan="3" | 18-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[3L&nbsp;15s]] || uha-tcherepnin || ''none''
+|-
+| [[4L&nbsp;14s]] || s-enhar lime || ''none''
+|-
+| [[5L&nbsp;13s]] || s-enhar oneirotonic || ''none''
+|-
+| [[6L&nbsp;12s]] || p-chro hexawood || ''none''
+|-
+| [[7L&nbsp;11s]] || f-enhar smitonic || ''none''
+|-
+| [[8L&nbsp;10s]] || p-chro taric || ''none''
+|-
+| [[9L&nbsp;9s]] || enneawood || ennwd
+|-
+| [[10L&nbsp;8s]] || m-chro taric || ''none''
+|-
+| [[11L&nbsp;7s]] || m-enhar smitonic || ''none''
+|-
+| [[12L&nbsp;6s]] || m-chro hexawood || ''none''
+|-
+| [[13L&nbsp;5s]] || p-enhar oneirotonic || ''none''
+|-
+| [[14L&nbsp;4s]] || p-enhar lime || ''none''
+|-
+| [[15L&nbsp;3s]] || paha-tcherepnin || ''none''
+|-
+! colspan="3" | 19-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[2L&nbsp;17s]] || p-chro liesic || ''none''
+|-
+| [[3L&nbsp;16s]] || magicaltonic<br />(uha-sephiroid) || ''none''
+|-
+| [[4L&nbsp;15s]] || uha-smitonic || ''none''
+|-
+| [[5L&nbsp;14s]] || s-enhar semiquartal || ''none''
+|-
+| [[6L&nbsp;13s]] || s-enhar archeotonic || ''none''
+|-
+| [[7L&nbsp;12s]] || f-enharmonic || flaen
+|-
+| [[8L&nbsp;11s]] || f-enhar checkertonic || ''none''
+|-
+| [[9L&nbsp;10s]] || p-chro sinatonic || ''none''
+|-
+| [[10L&nbsp;9s]] || m-chro sinatonic || ''none''
+|-
+| [[11L&nbsp;8s]] || m-enhar checkertonic || ''none''
+|-
+| [[12L&nbsp;7s]] || m-enharmonic || meen
+|-
+| [[13L&nbsp;6s]] || p-enhar archeotonic || ''none''
+|-
+| [[14L&nbsp;5s]] || p-enhar semiquartal || ''none''
+|-
+| [[15L&nbsp;4s]] || paha-smitonic || ''none''
+|-
+| [[16L&nbsp;3s]] || muggletonic<br />(paha-sephiroid) || ''none''
+|-
+| [[17L&nbsp;2s]] || m-chro liesic || ''none''
+|-
+! colspan="3" | 20-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[4L&nbsp;16s]] || uha-tetrawood || ''none''
+|-
+| [[5L&nbsp;15s]] || s-enhar pentawood || ''none''
+|-
+| [[6L&nbsp;14s]] || s-enhar ekic || ''none''
+|-
+| [[7L&nbsp;13s]] || f-enhar archeotonic || ''none''
+|-
+| [[8L&nbsp;12s]] || f-enhar tetrawood || ''none''
+|-
+| [[9L&nbsp;11s]] || f-enhar balzano || ''none''
+|-
+| [[10L&nbsp;10s]] || decawood || decwd
+|-
+| [[11L&nbsp;9s]] || m-enhar balzano || ''none''
+|-
+| [[12L&nbsp;8s]] || m-enhar tetrawood || ''none''
+|-
+| [[13L&nbsp;7s]] || m-enhar archeotonic || ''none''
+|-
+| [[14L&nbsp;6s]] || p-enhar ekic || ''none''
+|-
+| [[15L&nbsp;5s]] || p-enhar pentawood || ''none''
+|-
+| [[16L&nbsp;4s]] || paha-tetrawood || ''none''
+|-
+! colspan="3" | 21-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[2L&nbsp;19s]] || s-enhar liesic || ''none''
+|-
+| [[4L&nbsp;17s]] || uha-gramitonic || ''none''
+|-
+| [[5L&nbsp;16s]] || uha-machinoid || ''none''
+|-
+| [[6L&nbsp;15s]] || s-enhar hyrulic || ''none''
+|-
+| [[7L&nbsp;14s]] || p-chro septawood || ''none''
+|-
+| [[8L&nbsp;13s]] || f-enhar oneirotonic || ''none''
+|-
+| [[9L&nbsp;12s]] || f-enhar tcherepnin || ''none''
+|-
+| [[10L&nbsp;11s]] || f-enhar antisinatonic || ''none''
+|-
+| [[11L&nbsp;10s]] || m-enhar antisinatonic || ''none''
+|-
+| [[12L&nbsp;9s]] || m-enhar tcherepnin || ''none''
+|-
+| [[13L&nbsp;8s]] || m-enhar oneirotonic || ''none''
+|-
+| [[14L&nbsp;7s]] || m-chro septawood || ''none''
+|-
+| [[15L&nbsp;6s]] || p-enhar hyrulic || ''none''
+|-
+| [[16L&nbsp;5s]] || paha-machinoid || ''none''
+|-
+| [[17L&nbsp;4s]] || paha-gramitonic || ''none''
+|-
+| [[19L&nbsp;2s]] || p-enhar liesic || ''none''
+|-
+! colspan="3" | 22-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[3L&nbsp;19s]] || zheligowskic || zheli
+|-
+| [[4L&nbsp;18s]] || uha-lime || ''none''
+|-
+| [[5L&nbsp;17s]] || reinhardic || ''none''
+|-
+| [[6L&nbsp;16s]] || s-enhar lemon || ''none''
+|-
+| [[7L&nbsp;15s]] || s-enhar pine || ''none''
+|-
+| [[8L&nbsp;14s]] || f-enhar ekic || ''none''
+|-
+| [[9L&nbsp;13s]] || f-enhar gramitonic || ''none''
+|-
+| [[10L&nbsp;12s]] || f-enhar jaric || ''none''
+|-
+| [[11L&nbsp;11s]] || hendecawood || hedwd
+|-
+| [[12L&nbsp;10s]] || m-enhar jaric || ''none''
+|-
+| [[13L&nbsp;9s]] || m-enhar gramitonic || ''none''
+|-
+| [[14L&nbsp;8s]] || m-enhar ekic || ''none''
+|-
+| [[15L&nbsp;7s]] || p-enhar pine || ''none''
+|-
+| [[16L&nbsp;6s]] || p-enhar lemon || ''none''
+|-
+| [[17L&nbsp;5s]] || protofractalic || ''none''
+|-
+| [[18L&nbsp;4s]] || paha-lime || ''none''
+|-
+| [[19L&nbsp;3s]] || giedraitic || kai
+|-
+! colspan="3" | 23-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[2L&nbsp;21s]] || uha-liesic || ''none''
+|-
+| [[5L&nbsp;18s]] || uha-oneirotonic || ''none''
+|-
+| [[6L&nbsp;17s]] || uso-machinoid || ''none''
+|-
+| [[7L&nbsp;16s]] || s-enhar superdiatonic || ''none''
+|-
+| [[8L&nbsp;15s]] || f-enhar pine || ''none''
+|-
+| [[9L&nbsp;14s]] || f-enhar semiquartal || ''none''
+|-
+| [[10L&nbsp;13s]] || f-enhar sephiroid || ''none''
+|-
+| [[11L&nbsp;12s]] || miha-antisinatonic || ''none''
+|-
+| [[12L&nbsp;11s]] || quha-antisinatonic || ''none''
+|-
+| [[13L&nbsp;10s]] || m-enhar sephiroid || ''none''
+|-
+| [[14L&nbsp;9s]] || m-enhar semiquartal || ''none''
+|-
+| [[15L&nbsp;8s]] || m-enhar pine || ''none''
+|-
+| [[16L&nbsp;7s]] || p-enhar superdiatonic || ''none''
+|-
+| [[17L&nbsp;6s]] || paso-machinoid || ''none''
+|-
+| [[18L&nbsp;5s]] || paha-oneirotonic || ''none''
+|-
+| [[21L&nbsp;2s]] || paha-liesic || ''none''
+|-
+! colspan="3" | 24-note mosses
+|-
+! Pattern !! Name !! Prefix
+|-
+| [[5L&nbsp;19s]] || uha-semiquartal || ''none''
+|-
+| [[6L&nbsp;18s]] || s-enhar hexawood || ''none''
+|-
+| [[7L&nbsp;17s]] || s-enhar dicoid || ''none''
+|-
+| [[8L&nbsp;16s]] || p-chro octawood || ''none''
+|-
+| [[9L&nbsp;15s]] || f-enhar hyrulic || ''none''
+|-
+| [[10L&nbsp;14s]] || f-enhar lime || ''none''
+|-
+| [[11L&nbsp;13s]] || miha-balzano || ''none''
+|-
+| [[12L&nbsp;12s]] || dodecawood || dodwd
+|-
+| [[13L&nbsp;11s]] || quha-balzano || ''none''
+|-
+| [[14L&nbsp;10s]] || m-enhar lime || ''none''
+|-
+| [[15L&nbsp;9s]] || m-enhar hyrulic || ''none''
+|-
+| [[16L&nbsp;8s]] || m-chro octawood || ''none''
+|-
+| [[17L&nbsp;7s]] || p-enhar dicoid || ''none''
+|-
+| [[18L&nbsp;6s]] || p-enhar hexawood || ''none''
+|-
+| [[19L&nbsp;5s]] || paha-semiquartal || ''none''
+|}
+
+[[Category:TAMNAMS]]
