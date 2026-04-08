@@ -1,5 +1,11 @@
 import {describe, expect, it} from 'vitest';
-import {generateNotation, nthNominal} from '../notation';
+import {
+  generateNotation,
+  mosChordName,
+  mosDegreeName,
+  mosIntervalName,
+  nthNominal,
+} from '../notation';
 import {dot} from 'xen-dev-utils';
 
 describe('Generalized Diamond-mos nominals', () => {
@@ -176,5 +182,27 @@ describe('Diamond-mos notation generator', () => {
 
   it('it rejects foreign steps', () => {
     expect(() => generateNotation('LMsL')).toThrow();
+  });
+});
+
+describe('TAMNAMS interval/degree/chord naming helpers', () => {
+  it('names intervals in diatonic according to TAMNAMS quality rules', () => {
+    expect(mosIntervalName('LLsLLLs', 0, true)).toBe('P0ms');
+    expect(mosIntervalName('LLsLLLs', 1, true)).toBe('M1ms');
+    expect(mosIntervalName('LLsLLLs', 2, true)).toBe('M2ms');
+    expect(mosIntervalName('LLsLLLs', 3, true)).toBe('P3ms');
+    expect(mosIntervalName('LLsLLLs', 4, true)).toBe('P4ms');
+    expect(mosIntervalName('LLsLLLs', 5, true)).toBe('M5ms');
+    expect(mosIntervalName('LLsLLLs', 6, true)).toBe('M6ms');
+  });
+
+  it('names degrees from mode context and leaves perfectables unaltered', () => {
+    expect(mosDegreeName('LsLLsLL', 2, true)).toBe('m2md');
+    expect(mosDegreeName('LsLLsLL', 3, true)).toBe('P3md');
+    expect(mosDegreeName('LsLLsLL', 4, true)).toBe('P4md');
+  });
+
+  it('formats TAMNAMS-style chord labels', () => {
+    expect(mosChordName('LsLLsLLs', 2, [0, 2, 4])).toBe('m2md(0ms 2ms 4ms)');
   });
 });

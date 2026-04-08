@@ -72,6 +72,14 @@ export type DiamondMosNotation = {
   brightGenerator: MosMonzo;
 };
 
+/** Allowed TAMNAMS qualities for intervals/degrees. */
+export type MosQuality =
+  | 'perfect'
+  | 'major'
+  | 'minor'
+  | 'augmented'
+  | 'diminished';
+
 /** Single characters of valid nominals. */
 export const DIAMOND_MOS_ALPHABET: DiamondMosAlphabet[] = [
   'J',
@@ -191,4 +199,103 @@ export function generateNotation(mode: string): DiamondMosNotation {
     period,
     brightGenerator: gen,
   };
+}
+
+function monzoToEdo(monzo: MosMonzo): number {
+  return 2 * monzo[0] + monzo[1];
+}
+
+function qualityAbbreviation(quality: MosQuality) {
+  switch (quality) {
+    case 'perfect':
+      return 'P';
+    case 'major':
+      return 'M';
+    case 'minor':
+      return 'm';
+    case 'augmented':
+      return 'A';
+    case 'diminished':
+      return 'd';
+  }
+}
+
+function inferredQuality(
+  mode: string,
+  degree: number,
+  treatAsDegree: boolean,
+): MosQuality {
+  const notation = generateNotation(mode);
+  const period = notation.degrees.length;
+  const reduced = ((degree % period) + period) % period;
+  const nominal = notation.scale.get(nthNominal(reduced))!;
+  const nominalEdo = monzoToEdo(nominal);
+  const info = notation.degrees[reduced];
+  const centerEdo = monzoToEdo(info.center);
+  if (!info.perfect) {
+    return nominalEdo < centerEdo ? 'minor' : 'major';
+  }
+  if (nominalEdo === centerEdo || info.mid === undefined) {
+    return 'perfect';
+  }
+  const midEdo = monzoToEdo(info.mid);
+  const rarerIsAugmented = midEdo > centerEdo;
+  if (treatAsDegree) {
+    // Mode degrees without explicit alterations are always treated as unmodified.
+    return 'perfect';
+  }
+  return rarerIsAugmented ? 'augmented' : 'diminished';
+}
+
+/**
+ * Name a k-mosstep interval according to TAMNAMS.
+ * @param mode Mode in step pattern format, such as "LLsLLLs".
+ * @param mosSteps 0-indexed interval class in mossteps.
+ * @param abbreviated If true returns abbreviations such as P5ms instead of long names.
+ */
+export function mosIntervalName(
+  mode: string,
+  mosSteps: number,
+  abbreviated = false,
+): string {
+  const quality = inferredQuality(mode, mosSteps, false);
+  if (abbreviated) {
+    return `${qualityAbbreviation(quality)}${mosSteps}ms`;
+  }
+  return `${quality[0]!.toUpperCase()}${quality.slice(1)} ${mosSteps}-mosstep`;
+}
+
+/**
+ * Name a k-mosdegree according to TAMNAMS.
+ * @param mode Mode in step pattern format, such as "LLsLLLs".
+ * @param degree 0-indexed degree in mossteps from the tonic.
+ * @param abbreviated If true returns abbreviations such as m2md instead of long names.
+ */
+export function mosDegreeName(
+  mode: string,
+  degree: number,
+  abbreviated = false,
+): string {
+  const quality = inferredQuality(mode, degree, true);
+  if (abbreviated) {
+    return `${qualityAbbreviation(quality)}${degree}md`;
+  }
+  return `${quality[0]!.toUpperCase()}${quality.slice(1)} ${degree}-mosdegree`;
+}
+
+/**
+ * Format a TAMNAMS-style chord label: "<root-degree>(<interval-list>)".
+ * @param mode Mode in step pattern format, such as "LsLLsLLs".
+ * @param rootDegree Degree of the chord root.
+ * @param chordIntervals Intervals from the chord root in mossteps.
+ * @returns A chord label such as "m2md(0ms 2ms 4ms)".
+ */
+export function mosChordName(
+  mode: string,
+  rootDegree: number,
+  chordIntervals: number[],
+): string {
+  const root = mosDegreeName(mode, rootDegree, true);
+  const tones = chordIntervals.map(interval => `${interval}ms`).join(' ');
+  return `${root}(${tones})`;
 }
