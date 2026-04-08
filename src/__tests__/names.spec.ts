@@ -11,6 +11,14 @@ describe('MOS pattern namer', () => {
     expect(tamnamsInfo('2L 4s')!.abbreviation).toBe('mal');
   });
 
+  it('uses updated wiki-aligned abbreviations', () => {
+    expect(tamnamsInfo('1L 5s')!.abbreviation).toBe('amk');
+    expect(tamnamsInfo('6L 1s')!.abbreviation).toBe('arc');
+    expect(tamnamsInfo('2L 8s')!.abbreviation).toBe('ja');
+    expect(tamnamsInfo('5L 5s')!.prefix).toBe('pentawd');
+    expect(tamnamsInfo('7L 7s')!.name).toBe('heptawood');
+  });
+
   it('knows about pine and its subset', () => {
     expect(tamnamsInfo('7L 1s')!.name).toBe('pine');
     expect(tamnamsInfo('1L 6s')!.name).toBe('onyx');
